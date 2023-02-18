@@ -2,18 +2,63 @@
     width: 600px;
     height: 600px;
     border-style: solid;
-    border-color: black;
-    border-width: 1px;
+    border-color: rgb(154, 118, 52);
+    border-width: 20px;
     padding: -1px;
     display: flex;
     flex-wrap: wrap;
     padding: 0px;
+    background-color: white;
+    margin: 0px , auto;
 }
 
-.gridBlock {
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+/* .gridBlock {
     box-sizing: border-box;
     
+} */
+
+.blackDraw {
+    background-color: black;
+
+}
+
+body {
+    background-color: rgb(222, 177, 92);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.BIG_CONTAINER {
+    display: flex;
+    justify-content: center;
+}
+
+.sizeSlider {
+    text-align: center;
+}
+
+.sizeValue {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.BUTTONS {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 55px;
+}
+
+button{
+    width: 150px;
+    height: 60px;
+    font-size: 32px;
+    background-color: rgb(157, 144, 120);
+    border: solid, grey;
+    border-width: 5px;
 }
